@@ -1,5 +1,4 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-import React, {useState} from 'react';
+import React from 'react';
 import {View} from 'react-native';
 import AnimateCard from './animateCard';
 import cardData from '../../data/cardData';
@@ -20,7 +19,7 @@ const cards = () => {
             number={itm.number}
             verified={itm.verfied}
             status={itm.status}
-            id={itm.id}
+            itmId={itm.id}
             data={cardData}
           />
         );
